@@ -1,6 +1,8 @@
 # absolute-directory-test
-a test to see if a link to `/` (`<a href="/">test</a>`) goes to the home page of https://qanazoga.com 
+This is where I test different capabilities of github-pages. 
+click [here](https://qanazoga.com/github-pages-testing) to go to the main page.
 
-(the page is hosted from this project instead of from here instead of from [qanazoga/qanazoga.github.io](https://github.com/qanazoga/qanazoga.github.io)
-
-update: it works
+### What works and what doesn't
+- [x] absolute directories: linking to `/` from a self-contained page (hosted from your docs folder of a repo etc.) will go to the root page of the website (hosted from `yourname.github.io`)
+- [ ] using a README.md (or any .md) as a page (untested)
+- [ ] forwarding (untested)
